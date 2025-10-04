@@ -206,18 +206,28 @@ function parseMaintenanceData(text) {
         if (/Kelistrikan\s*ATM\s*dan\s*Modem/i.test(line)) {
           const keteranganValue = afterFirstColon(line);
           if (keteranganValue) {
-            // Transform "Menggunakan UPS" → "ATM dan Modem menggunakan UPS"
-            // Transform "Tidak Menggunakan UPS" → "ATM dan Modem tidak menggunakan UPS"
+            // Transform various UPS formats:
+            // "Menggunakan UPS" → "ATM dan Modem menggunakan UPS"
+            // "Tidak Menggunakan UPS" → "ATM dan Modem tidak menggunakan UPS"  
+            // "UPS" → "ATM dan Modem menggunakan UPS"
             let finalKeterangan;
-            if (/menggunakan\s*ups/i.test(keteranganValue)) {
-              if (/tidak\s*menggunakan\s*ups/i.test(keteranganValue)) {
+            const cleanValue = keteranganValue.trim();
+            
+            if (/menggunakan\s*ups/i.test(cleanValue)) {
+              if (/tidak\s*menggunakan\s*ups/i.test(cleanValue)) {
                 finalKeterangan = "ATM dan Modem tidak menggunakan UPS";
               } else {
                 finalKeterangan = "ATM dan Modem menggunakan UPS";
               }
+            } else if (/^ups$/i.test(cleanValue)) {
+              // Handle simple "UPS" format
+              finalKeterangan = "ATM dan Modem menggunakan UPS";
+            } else if (/tidak.*ups/i.test(cleanValue) || /no.*ups/i.test(cleanValue)) {
+              // Handle "Tidak UPS", "No UPS", etc.
+              finalKeterangan = "ATM dan Modem tidak menggunakan UPS";
             } else {
               // Format lain, gunakan as-is
-              finalKeterangan = keteranganValue;
+              finalKeterangan = cleanValue;
             }
             parsed.keterangan = parsed.keterangan ? `${parsed.keterangan}\n${finalKeterangan}` : finalKeterangan;
           } else {
