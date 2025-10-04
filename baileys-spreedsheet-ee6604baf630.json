@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "baileys-spreedsheet",
+  "private_key_id": "ee6604baf630b750917734707d97860b597650ee",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCljhl2JvwVjuaA\nt03a2YDLk0+BUpKlMikBeE8WqQdaqn9+03lWCixhUH9B2dwr+bRyLM0GoxApbmSZ\neiYgt7M3Bq2sUl+z6Em3kgNwi8QQ3blY1AUEJgZ6DmLidhH36WkUMV6EuArJS+5U\nMSCGIM4FFovPZPfq15Hc9U0vJPygbTlbXBajE2IczKU9Yols3XscWFWoj+a+Rka2\nKKtGl57L9e/y0zjVO8rf6IPx6w/uOrWJupNHMC8Onokk2z14IjMlVH1JdkQFXEYf\n/SsWbp8EEpG7aCEEm4IKDGaE+XLzUX3dnRyDLzuG2uQdgbH8LKlaSqMv9AF4wAJz\nSk+w69JpAgMBAAECggEAA7owyY+0Ijoe52v5FUHLXAn7gsJcqdp4wN84DJ8OmtR2\n3WCefTjqaeB5lP52LglHrkBi91DJht1E542v+RGZt9XvKA+Mtwy2SCtB55FF/0k2\nqJDRchf3El1rjYSx/95h7sHzylIocALFIWEfxdVMPiIVULyJtmBXGN3u+G5BP81c\nc+So2m1ei43Pgt5ZaYD57UYgfCaeZA9Se8w7xzl/n0+x77iA4QdVoReOh2EyJZHH\nKgS0Zo+xD+rMFs10XnJ7QyGSc8CDG8xNGwPEQXafVIR6mgxaz7715PyEFpcnkTin\nRvxXVZKJyyY9hc7jS/o0quKkIJUPQtah8b/y4SoO5wKBgQDV1BaNGCTwBHUV8ikI\nBZqNGqCDqzjd4SxSM30oha1zOt5bsArvtR8NOOgDvTH21QWf27h25rknq3NNbzxi\nybIFmVbgZ9yF4edBCNnKUaUgpFKCZUyp6cjcDV9VeqAU2kSeOugzdl4SchqL2Vuf\nD69eR0gmxDb9A10jpR1zua46PwKBgQDGNMCuDKvTh2hKjnr0BqQaHoKCvQpA35SG\nk7jba2rvIoRoYT39CjbTRBMLXUh92zGpMMN9wE7XkbEARKoD56HvrKM0YLIkzAdM\nK7heNomuaM4t9FjopLVjod0zM5mfRNIk1pASnlG/Yv6DznGzsgTyDX2rUGEtE0pF\nXVTqWMI5VwKBgQCshBfJsEAk8cOxeBYIpdTCoUf900fnI8PJckc5SVjejhFWchrw\nuPWbil0OnzdPiSCnj/Ms4wthaR92yxcyML6Ta9q+5Kzzy4XzX3uvkt2iD1GOaMJI\nmBj5CUTwRyYejNctviMXWhmd0jd+u1gDZfk8HFCnDkm7Klqb5pxzgMyDqwKBgQC5\nsPx/U4G7SFXN29SXQI2HpuPQxniPtKe6uTTr5KQna+guvkPMCEC7B0DsWbWrq6rH\n/tZ3vq5eybDRNoMt61nMaKnyTVE4pimEFEXDhkbRLoFTjmOpeX4y3JeW+5XGIDzc\npGQP/WFK89zM8aGWn4aAm2EMGd8g0ry3ZaxDbWpxOwKBgQCiBNxnTIvslm7+TOzb\n/GM3kVZx/28diDixvv/0BffCSFpZc90VcKtLoVPv3FB+eF1L4CweqZQFrdgF/AW4\nI8nfxQlvUsV3JcwqteM9tjXCzRBeiDVBz/JDMALvQ5Rt6F3CkF5cez9IF23D8Jgt\nF3EsmzR79pwDf4TLvDCjL08B9Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "wabot-961@baileys-spreedsheet.iam.gserviceaccount.com",
+  "client_id": "101863611499360264242",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/wabot-961%40baileys-spreedsheet.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
